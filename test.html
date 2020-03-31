@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css属性：文本，盒模型，背景，定位，浮动  -->
+    <style>
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            /* 行高等于盒子高 文字居中 */
+            width: 200px;
+            height: 40px;
+            border: 1px solid red;
+            background-color: cyan;
+            font-size: 12px;
+            font-family: "宋体";
+            /* 加粗 属性：数字，单词,bold=700,normal=400 */
+            font-weight: normal;
+            /* 行高 必须写在文字字号后面*/
+            line-height: 40px;
+            /*font复合属性写法 font：italic bold 12px/27px "宋体" */
+        }
+        .p1{
+            font-style: normal;
+        }
+        .p2{
+            /* 找斜体替换 */
+            font-style: italic;
+        }
+        .p3{
+            /* 文字斜体 */
+            font-style: oblique;
+        }
+        h1{
+            font-style: oblique bold 12px/27px "宋体";
+        }
+    </style>
+</head>
+<body>
+    <h1>标题</h1>
+    <p class="p1">文字</p>
+    <p class="p2">文字</p>
+    <p class="p3">文字</p>
+</body>
+</html>
